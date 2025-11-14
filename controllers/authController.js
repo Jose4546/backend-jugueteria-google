@@ -1,8 +1,8 @@
 // controllers/authController.js
 import bcrypt from "bcrypt";
+import crypto from "crypto";
 import nodemailer from "nodemailer";
 import jwt from "jsonwebtoken";
-import sql from "mssql"; // si usas SQL Server
 import dotenv from "dotenv";
 
 dotenv.config();
